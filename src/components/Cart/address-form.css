@@ -1,0 +1,71 @@
+.address-form {
+  width: 400px; /* Adjust width as needed */
+  margin: 50px auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.address-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.address-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.empty-cart {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+.button-resto {
+  background-color: blue;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.address-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; /* Include padding in width */
+  margin-bottom: 15px;
+}
+
+.address-form input[type="tel"] {
+  /* Style phone number input specifically */
+  -webkit-appearance: textfield; /* Remove phone number formatting for better styling */
+}
+
+.address-form button {
+  background-color: #4caf50; /* Green color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.address-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.address-form a {
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}

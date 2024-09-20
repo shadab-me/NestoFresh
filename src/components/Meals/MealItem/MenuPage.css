@@ -1,0 +1,155 @@
+.menu-page {
+  width: 60%;
+  margin: auto;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.menu-item-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.menu-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu-item-details {
+  margin-left: 15px;
+  flex-grow: 1;
+}
+
+.menu-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.menu-item-price {
+  font-size: 16px;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.btn-remove,
+.btn-add {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-remove {
+  background-color: #f44336; /* Red background color */
+  color: white;
+  border: 1px solid #f44336;
+  padding: 5px 10px; /* Padding for the button */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.2s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.btn-remove:hover {
+  background-color: #e53935;
+}
+
+.btn-add {
+  background-color: #007bff; /* Blue background color */
+  color: white;
+  border: 1px solid #007bff; /* Blue border */
+  padding: 5px 10px; /* Padding for the button */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.2s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.item-count {
+  margin: 0 5px;
+}
+
+.menu-item-price {
+  font-size: 1.2rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888; /* Light gray to show it's less prominent */
+  margin-right: 10px;
+}
+
+.discounted-price {
+  font-weight: bold;
+  color: #e74c3c; /* Highlight discounted price in red */
+  font-size: 1.4rem; /* Slightly larger to emphasize */
+}
+
+.menu-item-description {
+  margin-bottom: 12px;
+}
+
+/* General styling for the container */
+.menu-item-price-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Styling for the label */
+.menu-item-size-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Wrapper for the select dropdown */
+.menu-item-select-wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+/* Styling for the select dropdown */
+.menu-item-size-select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+  appearance: none;
+  cursor: pointer;
+}
+
+.menu-item-size-select:hover,
+.menu-item-size-select:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.menu-item-select-wrapper::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #007bff;
+}
+
+.menu-item-size-select option {
+  padding: 10px;
+}
