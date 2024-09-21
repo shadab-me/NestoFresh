@@ -1,4 +1,3 @@
-
 const ThePaperPizza = {
   Pizza: {
     id: "menu_001",
@@ -9,7 +8,8 @@ const ThePaperPizza = {
         name: "Margherita",
         description:
           "A classic Italian pizza with tomato sauce and mozzarella cheese.",
-        image: "https://example.com/images/margherita_pizza.jpg",
+        image:
+          "https://i.ibb.co/rGP6MRH/chad-montano-Mq-T0asuo-Ic-U-unsplash.jpg",
         sizes: {
           Regular: 170,
           Medium: 220,

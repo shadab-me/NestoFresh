@@ -76,6 +76,16 @@ function MenuPage() {
       0
     );
   };
+  const handleImageError = (e, category) => {
+    console.log(category);
+    if (category == "pizza") {
+      e.target.src =
+        "https://i.ibb.co/rGP6MRH/chad-montano-Mq-T0asuo-Ic-U-unsplash.jpg";
+    } else {
+      e.target.src =
+        "https://i.ibb.co/rGP6MRH/chad-montano-Mq-T0asuo-Ic-U-unsplash.jpg"; // Replace with your default image URL for other categories
+    }
+  };
 
   return (
     <div className="menu-page">
@@ -89,9 +99,7 @@ function MenuPage() {
                   <img
                     src={item.image}
                     alt={item.name}
-                    onError={(e) => {
-                      e.target.src = "https://via.placeholder.com/150";
-                    }}
+                    onError={(e) => handleImageError(e, category)}
                   />
                 </div>
                 <div className="menu-item-details">

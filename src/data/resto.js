@@ -16,7 +16,7 @@ const restaurants = [
     id: "resto_002",
     name: "The Moga Indian Restaurant",
     image:
-      "https://images.unsplash.com/photo-1615719413546-198b25453f85?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMDQwMjkwNA&ixlib=rb-1.2.1&q=85",
+      "https://i.ibb.co/vwHFhvk/shreevardhan-iyer-UNWY8-Bdrtro-unsplash-1.jpg",
     discount: 0.9,
     proDiscount: "None",
     deliveryTime: "30",
@@ -29,7 +29,7 @@ const restaurants = [
     id: "resto_003",
     name: "Kesar Restaurant",
     image:
-      "https://images.unsplash.com/photo-1615719413546-198b25453f85?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMDQwMjkwNA&ixlib=rb-1.2.1&q=85",
+      "https://i.ibb.co/xYsYxgX/zablanca-clicks-7j-ERG-ACc-Qs-unsplash.jpg",
     discount: 1,
     proDiscount: "None",
     deliveryTime: "40",
