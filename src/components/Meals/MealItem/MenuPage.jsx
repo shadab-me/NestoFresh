@@ -13,7 +13,7 @@ function MenuPage() {
   const { id } = useParams();
 
   const { discount } = restaurants.find((resto) => {
-    return resto.id == id;
+    return resto.id === id;
   });
 
   useEffect(() => {
@@ -78,7 +78,7 @@ function MenuPage() {
   };
   const handleImageError = (e, category) => {
     console.log(category);
-    if (category == "pizza") {
+    if (category === "pizza") {
       e.target.src =
         "https://i.ibb.co/rGP6MRH/chad-montano-Mq-T0asuo-Ic-U-unsplash.jpg";
     } else {
@@ -89,6 +89,7 @@ function MenuPage() {
 
   return (
     <div className="menu-page">
+      {console.log(calculateTotalPrice)}
       {Object.keys(menuData).map((category) => (
         <div key={category} className="menu-category">
           <h2>{category}</h2>
@@ -121,7 +122,7 @@ function MenuPage() {
                       </select>
 
                       <p className="menu-item-price">
-                        {discount != 1 ? (
+                        {discount !== 1 ? (
                           <>
                             <span className="original-price">
                               ₹{item.sizes[selectedSizes[item.id] || "Regular"]}

@@ -35,7 +35,7 @@ function Cart(props) {
 
   return (
     <>
-      {hasItems == false ? (
+      {hasItems === false ? (
         <div className={classes["empty-cart"]}>
           <h2>Your cart is currently empty!</h2>
           <p>Start adding items to your cart to experience the shopping joy.</p>
