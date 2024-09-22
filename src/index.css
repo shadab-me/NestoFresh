@@ -4,6 +4,14 @@
   box-sizing: border-box;
   margin: 0px;
 }
+body {
+  background-color: #000;
+}
+h1,
+h2,
+h3 {
+  color: #c7ae6a;
+}
 a {
   text-decoration: none;
 }
@@ -26,5 +34,16 @@ html {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+  }
+  .image {
+    width: 500px;
   }
 }

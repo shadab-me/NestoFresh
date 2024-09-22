@@ -123,16 +123,14 @@ function Restaurants(props) {
   // ];
 
   return (
-    <div className="restos">
-      <div className="resto-container">
-        {restaurants.map((resto) => (
-          <RestaurantCard
-            restaurant={resto}
-            onAddToCart={addToCartHandler}
-            key={resto.id}
-          />
-        ))}
-      </div>
+    <div className="resto-container">
+      {restaurants.map((resto) => (
+        <RestaurantCard
+          restaurant={resto}
+          onAddToCart={addToCartHandler}
+          key={resto.id}
+        />
+      ))}
     </div>
   );
 }

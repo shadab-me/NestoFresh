@@ -41,10 +41,18 @@ function AddressForm() {
     <>
       {isOrderSubmitted ? (
         <div className="order-success">
-          <h2>Order Submitted Successfully!</h2>
-          <p>
-            A representative will call you in 2 minutes to confirm the order.
-          </p>
+          <div className="order-success-content">
+            <div className="order-success-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/148/148767.png" // A green checkmark icon (you can use your own)
+                alt="Success"
+              />
+            </div>
+            <h2>Order Submitted Successfully!</h2>
+            <p>
+              A representative will call you in 2 minutes to confirm the order.
+            </p>
+          </div>
         </div>
       ) : (
         <>

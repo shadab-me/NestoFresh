@@ -11,7 +11,7 @@
   padding: 20px;
 }
 .button-resto {
-  background-color: blue;
+  background-color: #c7ae6a;
   padding: 5px 10px;
   color: white;
   border-radius: 10px;
@@ -52,4 +52,15 @@
 .actions .button {
   background-color: #8a2b06;
   color: white;
+}
+@media (max-width: 768px) {
+  .empty-cart {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  .cart {
+    width: 80% !important;
+    margin: auto;
+  }
 }
