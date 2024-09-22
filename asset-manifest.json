@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b07c7488.css",
-    "main.js": "/static/js/main.c90d0614.js",
-    "static/media/pexels-catscoming-365459.jpg": "/static/media/pexels-catscoming-365459.ca5d953170a3ef0550d0.jpg",
+    "main.css": "/static/css/main.fd7d2dfc.css",
+    "main.js": "/static/js/main.413cebaa.js",
+    "static/media/foodnestfresh.jpg": "/static/media/foodnestfresh.cc00a8d1d19574767697.jpg",
+    "static/media/logo.png": "/static/media/logo.01a45619bce55c098500.png",
     "index.html": "/index.html",
-    "main.b07c7488.css.map": "/static/css/main.b07c7488.css.map",
-    "main.c90d0614.js.map": "/static/js/main.c90d0614.js.map"
+    "main.fd7d2dfc.css.map": "/static/css/main.fd7d2dfc.css.map",
+    "main.413cebaa.js.map": "/static/js/main.413cebaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.b07c7488.css",
-    "static/js/main.c90d0614.js"
+    "static/css/main.fd7d2dfc.css",
+    "static/js/main.413cebaa.js"
   ]
 }
