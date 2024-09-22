@@ -1,9 +1,8 @@
 import React from "react";
-import mealsImage from "../../assets/pexels-catscoming-365459.jpg"; // Change this to the correct image
 import classes from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png"; // Update to point to the correct path of the Nesto Fresh logo
+import logo from "../../assets/logo.png"; 
 
 function Header(props) {
   return (
