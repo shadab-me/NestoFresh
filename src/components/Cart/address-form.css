@@ -6,6 +6,7 @@
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   font-family: sans-serif;
+  margin-top: 120px;
 }
 
 .address-form h2 {
@@ -79,6 +80,7 @@
   height: 60vh; /* Makes it vertically centered */
   text-align: center;
   padding: 20px;
+  margin-top: 120px !important;
 
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */

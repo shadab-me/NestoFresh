@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd7d2dfc.css",
+    "main.js": "/static/js/main.413cebaa.js",
+    "static/media/foodnestfresh.jpg": "/static/media/foodnestfresh.cc00a8d1d19574767697.jpg",
+    "static/media/logo.png": "/static/media/logo.01a45619bce55c098500.png",
+    "index.html": "/index.html",
+    "main.fd7d2dfc.css.map": "/static/css/main.fd7d2dfc.css.map",
+    "main.413cebaa.js.map": "/static/js/main.413cebaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd7d2dfc.css",
+    "static/js/main.413cebaa.js"
+  ]
+}
