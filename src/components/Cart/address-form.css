@@ -50,17 +50,15 @@
 }
 
 .address-form button {
-  background-color: #4caf50; /* Green color */
-  color: white;
+  background-color: transparent; /* Green color */
+  color: #2ecc71;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-}
-
-.address-form button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  border: 2px solid #2ecc71;
+  border-radius: 25px;
 }
 
 .address-form a {
@@ -77,7 +75,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh; /* Makes it vertically centered */
+  height: 60vh;
   text-align: center;
   padding: 20px;
   margin-top: 120px !important;

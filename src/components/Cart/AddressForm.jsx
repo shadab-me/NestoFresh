@@ -89,7 +89,6 @@ function AddressForm() {
                   required
                 />
 
-                {/* Show loader if loading state is true */}
                 {loading ? (
                   <div className="loader"></div>
                 ) : (
